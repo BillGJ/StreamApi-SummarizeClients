@@ -23,10 +23,10 @@ The new code contains a single Stream-based computation for each of the followin
 
 ## Running the code using the command line
 
-To run this code just do:
-
-1. `javac -cp . SummarizeClients.java`
-2. `java -cp . SummarizeClients` 
+To compile and run this code, just do:
+   
+      javac -cp . SummarizeClients.java 
+      java -cp . SummarizeClients 
 
 The output should look like:
 
