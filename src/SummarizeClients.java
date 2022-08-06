@@ -13,10 +13,10 @@ public final class SummarizeClients {
         long nextExpiration;
         // If we use Set we won't need the distinct() method
         // Set<ZoneId> representedZoneIds = new HashSet<>();
-        // We will use the distinct() method for learning purpose so we will use a list
-        List<ZoneId> representedZoneIds = new ArrayList<>();
+        // We will use the distinct() method for learning purpose, so we'll use a list
+        List<ZoneId> representedZoneIds;
         // We use Long instead of Integer
-        Map<Year, Long> contractsPerYear = new HashMap<>();
+        Map<Year, Long> contractsPerYear;
 
         // Get a list of all clients
         List<UdacisearchClient> clients = ClientStore.getClients();
