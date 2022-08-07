@@ -1,4 +1,4 @@
-# Stream API
+# SummarizeClients - Stream API
 
 
 There is a simple Java program, `SummarizeClients`, 
